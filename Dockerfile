@@ -1,3 +1,6 @@
+FROM maven:3.8-openjdk-17 AS BUILD
+WORKDIR /app
+COPY . .
 FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
