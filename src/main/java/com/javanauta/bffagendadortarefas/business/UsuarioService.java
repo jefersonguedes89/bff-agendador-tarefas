@@ -26,6 +26,7 @@ public class UsuarioService {
     }
 
     public UsuarioDTOResponse buscarUsuarioPorEmail(String email, String token) {
+        UsuarioDTOResponse usuarioDTOResponse = usuarioClient.buscarUsuarioPorEmail(email, token);
         return usuarioClient.buscarUsuarioPorEmail(email, token);
     }
 
