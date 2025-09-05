@@ -1,4 +1,4 @@
-package com.javanauta.bff_agendador_tarefas;
+package com.javanauta.bffagendadortarefas;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
